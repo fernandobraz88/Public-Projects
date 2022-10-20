@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stetic/css/stile.css">
+
+    <title>My Teacher</title>
+
+</head>
+<body>
+    <header>
+       <img class="logo" src="stetic/img/logo_myteacher.png" alt="logo do sitem my techer">
+       <span>Encontre o professor perfeito!</span>
+    </header>
+
+    <main>
+        <section class="teacher-container">
+            <img src="stetic/img/foto_professor_1.png" alt="professor1" class="teacher-img">
+            <p class="teacher-name"><strong>João da Silva</strong></p>
+            <p class="teacher-price">R$100,00 por hora</p>
+            <p class="teacher-description">Professor de inglês, já morou nos Estados Unidos e Inglaterra</p>
+            <p> 
+                <form class="teacher-contract">
+                    <input name="price" type="hidden" value="100">
+                    <input required min="1" required max="3" name="hours" type="number" placeholder="Quantidade de horas" class="teacher-contract-hours">
+                    <button type="submit" class="techer-contract-button">Calcular valor total</button>
+
+                </form>
+            </p>
+        </section>
+        <section class="teacher-container">
+            <img src="stetic/img/foto_professor_2.png" alt="professor1" class="teacher-img">
+            <p class="teacher-name"><strong>Maria da Silva</strong></p>
+            <p class="teacher-price">R$90,00 por hora</p>
+            <p class="teacher-description">Professora de inglês, já morou nos Estados Unidos e Inglaterra</p>
+            <p> 
+                <form class="teacher-contract">
+                    <input name="price" type="hidden" value="90">
+                    <input required min= "1" required max="3" name="hours" type="number" placeholder="Quantidade de horas" class="teacher-contract-hours">
+                    <button type="submit" class="techer-contract-button">Calcular valor total</button>
+
+                </form>
+            </p>
+        </section>
+    </main> 
+
+<script src="./stetic/js/script.js"></script>
+</body>
+</html>
